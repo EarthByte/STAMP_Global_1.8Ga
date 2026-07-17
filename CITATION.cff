@@ -1,0 +1,41 @@
+{
+  "title": "STAMP Global 1.8 Ga: spatiotemporal prospectivity modelling of porphyry mineralisation",
+  "version": "1.0.0",
+  "upload_type": "software",
+  "description": "STAMP Global 1.8 Ga is an open-source Python and Jupyter workflow for reconstructing subduction-zone kinematics and downgoing-plate properties and modelling global porphyry copper prospectivity over the past 1.8 billion years. The workflow combines positive-unlabelled bagging with random-forest classification to estimate mineralisation probability, prediction uncertainty and uncertainty-adjusted prospectivity through geological time.",
+  "creators": [
+    {
+      "name": "Müller, R. Dietmar"
+    },
+    {
+      "name": "Farahbakhsh, Ehsan"
+    },
+    {
+      "name": "McInnes, Brian I. A."
+    },
+    {
+      "name": "Seton, Maria"
+    },
+    {
+      "name": "Dutkiewicz, Adriana"
+    },
+    {
+      "name": "Kohlmann, Florian"
+    }
+  ],
+  "access_right": "open",
+  "license": "mit",
+  "language": "eng",
+  "keywords": [
+    "mineral prospectivity",
+    "porphyry copper",
+    "plate tectonics",
+    "subduction zones",
+    "machine learning",
+    "positive-unlabelled learning",
+    "random forest",
+    "deep-time reconstruction",
+    "pyGPlates",
+    "GPlately"
+  ]
+}
