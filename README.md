@@ -2,7 +2,7 @@
 
 This repository contains **STAMP** (Spatio-Temporal Analysis of Mineral Prospectivity), the open-source workflow originally developed by Farahbakhsh et al. (2026), used to build a global model of porphyry copper prospectivity over the past 1.8 Ga. It accompanies the paper:
 
-> Müller, R. D., Farahbakhsh, E., McInnes, B. I. A., Seton, M., Dutkiewicz, A., Kohlmann, F. (2026). *High-flux subduction and volatile recycling govern porphyry copper formation over 1.8 billion years*. [Under review]
+> Müller, R. D., Farahbakhsh, E., McInnes, B. I. A., Seton, M., Dutkiewicz, A., Kohlmann, F. (2026). *High-flux subduction and volatile recycling govern porphyry copper formation over 1.8 billion years*. [PNAS-Nexus, in revision]
 
 The workflow reconstructs subduction zone kinematics and downgoing plate properties through deep time and trains an interpretable classifier that combines positive–unlabelled bagging with a random forest. Across the global arc network and at one-million-year resolution, it estimates the probability that porphyry mineralisation formed and the uncertainty of that prediction, combining these into a map of mineralisation probability adjusted by uncertainty. See the paper for full details.
 
@@ -70,6 +70,8 @@ Beyond the plate reconstruction, which is fetched automatically through the Plat
 - **Oceanic grids** reconstructed on the chosen plate model: seafloor age (`SeafloorAge`), spreading rate (`SpreadingRate`), total deep-sea sediment thickness (`SedimentThickness`), and upper-oceanic-crust carbon (`CrustalCO2`).
 - **Perple_X lookup tables** for slab devolatilisation, organised by reservoir (`Sediments`, `Metabasalts`, `Intrusives`, `Sublithospheric_Oceanic_mantle`), each with H<sub>2</sub>O and CO<sub>2</sub> tables.
 - **A global porphyry copper deposit database**, providing the positive (training) samples.
+  
+The plate reconstruction model used in this study is available in Zenodo at https://zenodo.org/records/17142287 and the input grids used in the analyses are available in Zenodo at https://zenodo.org/records/17353904
 
 ## Running the workflow
 
