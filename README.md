@@ -1,5 +1,7 @@
 # Spatiotemporal prospectivity modelling of porphyry mineralisation on a global scale over the past 1.8 Ga
 
+[![DOI](https://zenodo.org/badge/1290592049.svg)](https://doi.org/10.5281/zenodo.21403797)
+
 This repository contains **STAMP** (Spatio-Temporal Analysis of Mineral Prospectivity), the open-source workflow originally developed by Farahbakhsh et al. (2026), used to build a global model of porphyry copper prospectivity over the past 1.8 Ga. It accompanies the paper:
 
 > Müller, R. D., Farahbakhsh, E., McInnes, B. I. A., Seton, M., Dutkiewicz, A., Kohlmann, F. (2026). *High-flux subduction and volatile recycling govern porphyry copper formation over 1.8 billion years*. [PNAS-Nexus, in revision]
